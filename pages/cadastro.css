@@ -1,0 +1,94 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #1abc9c;
+}
+.headera {
+    padding: 60px;
+    text-align: center;
+    background:rgba(130, 221, 175, 0.877);
+    color: white;
+  }
+  .navbar {
+    display: flex;
+    background-color: #333;
+  } 
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  #facacadastro {
+    text-align: center;
+     color: whitesmoke;
+ 
+ }
+   .conteudo{
+     background:#fefefe;
+     border-radius: 20px;
+     padding: 20px;
+     width:30%;
+     margin: auto;
+     box-shadow: rgba(130, 221, 175, 0.877) 13px 13px 10px;
+     justify-content: 80px left;
+     text-align: center;
+   }
+ 
+ input{
+     border-radius: 15px;
+     padding: 7px;
+     border: 1px radius;
+     width: medium;
+     size: 40 ;
+ }
+ 
+ label {
+  text-align: right;
+  float: left;
+  width: 10%;
+  display: inline-block;
+  }
+ 
+ .loginBtn {
+  margin-top: 20px;
+  border-radius: 13px;
+  padding: 10px;
+  width: 30%;
+  background-color:rgb(10, 212, 77);
+  cursor: pointer;
+  margin: auto;
+  color: white;
+ }
+ 
+ .loginBtn:hover {
+    background: rgba(0, 0, 0, 0);
+    color:  rgb(10, 212, 77);
+    box-shadow: inset 0 0 0 3px rgb(10, 212, 77);
+ }
+ 
+ .cadastro{
+     font-size: 0.8em;
+     margin-top: 0.5em;
+     text-align: center;
+     color: rgba(0, 0, 0, 0.625)
+ }
+ 
+ .cadastro a {
+     color: rgba(91, 0, 238, 0.911)
+ }
+ footer {
+     padding: 20px;
+     text-align: center;
+     background: #ddd;
+     font-size: 8pt;
+     margin-top: 135px;
+   }
+   ::placeholder{
+    text-align: center;
+}
